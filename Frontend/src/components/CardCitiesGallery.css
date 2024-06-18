@@ -1,0 +1,22 @@
+.cardCityGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alineación a la izquierda */
+  align-items: flex-start;
+}
+
+.cardCityGallery img {
+  width: 250px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 1px; /* Espacio entre las imágenes */
+}
+
+.cardCityGallery h1 {
+  font-size: 1.8em; /* Tamaño del texto */
+  color: #6d71e5; /* Color del texto */
+  margin-bottom: 8px; /* Espacio inferior */
+  text-align: center; /* Alineación del texto */
+  font-family: cursive;
+}

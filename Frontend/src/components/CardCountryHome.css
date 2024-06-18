@@ -1,0 +1,31 @@
+/* .cardCountryHome{
+    & img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+} */
+.cardCountryHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alineación a la izquierda */
+    align-items: flex-start;
+  }
+  
+  .cardCountryHome img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 5px; /* Espacio entre las imágenes */
+
+  }
+  
+  .cardCountryHome h3 {
+    font-size: 1.8em; /* Tamaño del texto */
+    color: #065f72; /* Color del texto */
+    margin-bottom: 8px; /* Espacio inferior */
+    text-align: center; /* Alineación del texto */
+    text-transform: uppercase;
+  }
+  

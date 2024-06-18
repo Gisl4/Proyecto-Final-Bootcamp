@@ -1,0 +1,21 @@
+CSS HEX
+light-blue: #b0d8d6ff;
+arylide-yellow: #e7cb57ff;
+medium-slate-blue: #6d71e5ff;
+white: #ffffffff;
+battleship-gray: #8a7e72ff;
+
+/* CSS HSL */
+--light-blue: hsla(177, 34%, 77%, 1);
+--arylide-yellow: hsla(48, 75%, 62%, 1);
+--medium-slate-blue: hsla(238, 70%, 66%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--battleship-gray: hsla(30, 10%, 49%, 1);
+
+/* SCSS HEX */
+light-blue: #b0d8d6ff;
+arylide-yellow: #e7cb57ff;
+medium-slate-blue: #6d71e5ff;
+white: #ffffffff;
+battleship-gray: #8a7e72ff;
+

@@ -1,0 +1,149 @@
+
+.AboutPages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 2rem;
+  width: 190px;
+  height: 280px;
+  background: #f5f5f5;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.about-cards {
+  display: flex;
+  gap: 2rem;
+  width: 90%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  font-family: 'Verdana', sans-serif;
+}
+
+/*Image*/
+.about-avatar {
+  --size: 80px;
+  background-position: center;
+  background-size: cover;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 70%;
+  transition: transform 0.2s ease;
+  margin-bottom: 1rem;
+  object-fit: scale-down;
+}
+
+/*Card footer*/
+.about-social {
+  transform: translateY(350%);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.about-social__item {
+  list-style: none;
+}
+
+.about-social__item svg {
+  display: block;
+  fill: #353e57;
+  cursor: pointer;
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+/*Text*/
+.about-title {
+  color: #28231D;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-subtitle {
+  color: #030303;
+  font-size: 0.9em;
+}
+
+/*Hover*/
+.about:hover {
+  box-shadow: 0 50px 70px #1d1d1d33;
+}
+
+.about:hover .about-info {
+  transform: translateY(-15%);
+}
+
+.about:hover .about-social {
+  transform: translateY(100%);
+  opacity: 15;
+}
+
+.about-social__item svg:hover {
+  fill: #1d1d1d33;
+  transform: scale(1.1);
+}
+
+.about-social__item img:hover {
+  fill: #1d1d1d33;
+  filter: invert(10%);
+  transform: scale(1.1);
+}
+
+.about-avatar:hover {
+  transform: scale(1.1);
+}
+.about-social__item > a > img {
+  width: 30px;
+  height: 30px;
+  filter: invert(30%);
+}
+
+.about-social__item {
+  width: 35px;
+  height: 35px;
+}
+
+.dark > div > div > .About > div > div {
+  box-shadow: 12px 12px 12px rgb(102, 87, 87);
+  border-radius: 20px;
+}
+
+  
+/* h2 {
+  font-size: 20px; 
+  color: #333; 
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+
+p {
+  font-size: 16px;
+  line-height: 1.6; 
+  color: #030303; 
+  
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Estilo para los saltos de línea */
+br {
+  display: none; /* Oculta los saltos de línea */
+} */

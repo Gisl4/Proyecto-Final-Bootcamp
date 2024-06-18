@@ -1,0 +1,51 @@
+.title-and-icons-wrapper {
+  display: flex;
+}
+
+.comment-icon-padding {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.event-comment-experience-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.comments-likes-counter {
+  position: absolute;
+  top: 16px;
+  right: -5px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.comments-likes-counter-2 {
+  right: 2px;
+}
+
+.event-detail-image {
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.event-detail-figure {
+  max-width: 90%;
+  padding: 0px 15px;
+  border-radius: 9px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all 0.5s ease;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+  .event-detail-figure {
+    margin-inline: auto;
+    margin-top: 50px;
+  }
+}

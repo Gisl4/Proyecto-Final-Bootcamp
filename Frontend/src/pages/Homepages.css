@@ -1,0 +1,86 @@
+
+.TituloViajeros {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD2BF;
+    border-radius: 50px;
+    margin: 20px
+}
+
+
+.tituloPaises {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#FFD2BF;
+    border-radius: 50px;
+    margin: 20px
+}
+
+.paragraph {
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px;
+}
+
+
+ #containerHome {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 50px;
+
+  }
+  
+  #containerHome button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  #containerHome button img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  #containerHome button img:hover {
+    transform: scale(1.05);
+  }
+
+  .homePage {
+  display: flex;
+  flex-direction: column; /* Coloca los elementos uno debajo del otro */
+  align-items: center; /* Alinea horizontalmente al centro */
+  text-align: center; /* Alinea el texto al centro */
+  width: 100%; /* Hace que .homePage ocupe todo el ancho de main */
+  min-height: inherit; /* Hereda el min-height de main */
+}
+
+
+.EventosHome {
+  font-size: 3em;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    display:s inline-block;
+    padding: 10px 20px;
+    background-color: #FFD2BF;
+    border-radius: 50px;
+    margin: 20px
+
+}
+
+button {
+  margin: 10px
+}

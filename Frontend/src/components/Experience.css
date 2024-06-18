@@ -1,0 +1,23 @@
+.comments-likes-counter-experiences {
+  position: absolute;
+  top: 16px;
+  right: 42px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.comments-likes-counter-2-experiences {
+  left: 42px;
+}
+
+.comment-icon-padding {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.close-chat-wrapper {
+  position: relative;
+  bottom: 35px;
+}

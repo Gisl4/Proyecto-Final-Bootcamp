@@ -1,0 +1,8 @@
+footer{
+  min-height: 10vh;
+  background-color:#C2F0FD; 
+  text-align: center;
+& p{
+  color:azure
+}
+}

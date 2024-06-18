@@ -1,0 +1,24 @@
+/* Estilo para las tarjetas de las ciudades */
+.city-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+}
+
+.city-card img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.city-card h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.city-card p {
+  font-size: 1rem;
+  color: #000000;
+}

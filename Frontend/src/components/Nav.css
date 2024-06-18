@@ -1,0 +1,68 @@
+/* .navPrincipal {
+  display: flex;
+  min-width: 30vh;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navPrincipal button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navPrincipal button:hover {
+  background-color: #e7cb57ff
+
+} */
+
+.navPrincipal {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si es necesario */
+  min-width: 30vh;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Ajuste del gap para que sea más pequeño */
+  padding: 10px; /* Agregado padding para espacio interno */
+}
+
+.navPrincipal button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px; /* Reducido el margen para adaptarse mejor en pantallas pequeñas */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  background-color: #3b5998; /* Añadido un color de fondo para los botones */
+  flex: 1 1 auto; /* Permite que los botones crezcan y se encojan según sea necesario */
+}
+
+.navPrincipal button:hover {
+  background-color: #e7cb57;
+}
+
+@media (max-width: 768px) {
+  .navPrincipal {
+    flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+
+  .navPrincipal button {
+    width: 100%; /* Hace que los botones ocupen todo el ancho del contenedor */
+    margin: 5px 0; /* Ajuste del margen superior e inferior */
+  }
+}
+
+

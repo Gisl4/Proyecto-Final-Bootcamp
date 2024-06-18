@@ -1,0 +1,31 @@
+.Check_box {
+  color: rgb(0, 183, 255);
+}
+.person_add {
+  color: rgb(0, 255, 38);
+}
+
+.favorite {
+  color: red;
+  padding: 10px 20px;
+}
+
+.comment-icon-padding {
+  padding-top: 1px;
+  padding-left: 7px;
+}
+
+.close-chat-wrapper {
+  position: sticky;
+  bottom: 30px;
+}
+
+.close-chat-wrapper:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.card-comments-wrapper {
+  position: relative;
+  transform: scale(1);
+}

@@ -1,0 +1,62 @@
+/* Estilos para el contenedor principal */
+#containerCountryAll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 130px;
+  background-color: #ffffff;
+  min-height: 30vh;
+}
+
+/* Estilos para el mensaje de carga */
+#containerCountryAll p {
+  font-size: 1.5em;
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para las tarjetas de país */
+.card-country-home {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  max-width: 300px;
+  flex: 1 1 calc(33.333% - 20px); /* Tres tarjetas por fila */
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+
+.card-country-home:hover {
+  transform: scale(1.05);
+}
+
+/* Título de la tarjeta */
+.card-country-home h2 {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+/* Descripción de la tarjeta */
+.card-country-home p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .card-country-home {
+    flex: 1 1 calc(50% - 20px); /* Dos tarjetas por fila */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-country-home {
+    flex: 1 1 100%; /* Una tarjeta por fila */
+  }
+}

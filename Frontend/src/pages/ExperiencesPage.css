@@ -1,0 +1,15 @@
+/* #containerEventsPages{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    & p{
+        text-align: center;
+    }
+
+   
+} */

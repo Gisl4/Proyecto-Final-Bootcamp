@@ -1,0 +1,48 @@
+.containerDataNoChange {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 2rem 0 2rem 0;
+  border-radius: 20px;
+}
+
+.formProfile {
+  margin: 2rem;
+}
+
+.input_user{
+  width: 7,5rem;
+  height: 2rem;
+  border: solid 2px #FFB1CE;
+  border-radius: 5%;
+
+}
+
+@media (max-width: 900px) {
+  .containerProfile {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .containerProfile {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .formProfile {
+    margin: 0.5rem;
+    width: 90%;
+  }
+}
+

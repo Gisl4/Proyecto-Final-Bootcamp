@@ -1,0 +1,186 @@
+.chat-wrapper {
+  background-color: rgba(135, 206, 250, 0.4);
+  padding-top: 2rem;
+  padding-bottom: 50px;
+  width: 100%;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.chat-header-wrapper {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  border-bottom: 2px solid rgba(89, 116, 219, 1) 92%;
+  padding-bottom: 5px;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.text-div {
+  display: flex;
+  max-width: 700px;
+  margin-inline: auto;
+  padding-inline: 10px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.my-text-wrapper {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  position: relative;
+}
+
+.friend-text-wrapper {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  position: relative;
+}
+
+.friend-text-comments {
+  background: linear-gradient(
+      180deg,
+      rgb(87, 100, 101) 0%,
+      rgb(132, 125, 180) 51%,
+      rgb(108, 118, 160) 92%
+    )
+    no-repeat center;
+  position: relative;
+  background-attachment: fixed;
+  color: #fff;
+  border-radius: 0.5rem 0.2rem 0.2rem 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0.12rem 0.5rem;
+  text-align: right;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  max-width: 20rem;
+  min-width: 145px;
+}
+
+.my-text {
+  background: linear-gradient(
+      180deg,
+      rgba(139, 47, 184, 1) 0%,
+      rgba(103, 88, 205, 1) 51%,
+      rgba(89, 116, 219, 1) 92%
+    )
+    no-repeat center;
+  background-attachment: fixed;
+  color: #fff;
+  border-radius: 0.5rem 0.2rem 0.2rem 0.5rem;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0.12rem 0.5rem;
+  text-align: right;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  max-width: 20rem;
+  min-width: 145px;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  max-width: 700px;
+  margin-inline: auto;
+  padding-inline: 10px;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0px;
+  margin-top: 25px;
+}
+
+label {
+  width: 100%;
+}
+
+.textarea-message {
+  height: 100px;
+  outline: none;
+  border-radius: 0.5rem 0.2rem 0.2rem 0.5rem;
+  border: 2px solid rgba(89, 116, 219, 1) 92%;
+  resize: none;
+  padding: 7px;
+  font-size: 16px;
+  color: rgb(39, 35, 35);
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.comment-and-hour {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.like {
+  color: red;
+}
+
+.comments-header {
+  justify-content: space-between;
+  margin-bottom: 7px;
+  width: 100%;
+}
+
+.comments-settings-wrapper {
+  display: flex;
+  gap: 3px;
+  top: 8px;
+  right: 3%;
+}
+
+.comments-settings-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.comments-settings {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.comments-actions-icon {
+  cursor: pointer;
+  margin: 0px;
+  color: white;
+}
+
+.comments-actions-icon:hover {
+  opacity: 0.7;
+}
+
+h5 {
+  text-align: left;
+}
+
+.comments-likes-wrapper {
+  position: relative;
+}
+
+.comments-likes-counter {
+  position: absolute;
+  top: 12px;
+  right: -5px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.comments-likes-counter-2 {
+  right: 2px;
+}
+
+.friend-like-wrapper-comments {
+  position: absolute;
+  left: -40px;
+  bottom: -11px;
+  color: black;
+}

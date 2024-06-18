@@ -1,0 +1,91 @@
+/* .material-symbols-outlined {
+  font-size: 24px; 
+  margin: 0 10px; 
+  color: black; 
+}
+
+.material-symbols-outlined:hover {
+  color: #C2F0FD;; 
+}
+
+.material-symbols-outlined.active {
+  color: #6d71e5ff
+} */
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: black;
+  transition: color 0.3s;
+}
+
+.material-symbols-outlined:hover {
+  color: #C2F0FD;
+}
+
+.material-symbols-outlined.active {
+  color: #6d71e5ff;
+}
+
+/* Estilos para el contenedor del menú */
+.menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Oculta el checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Estilos para el icono del menú hamburguesa */
+.menu-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el menú desplegable */
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Muestra el menú cuando el checkbox está marcado */
+#menu-toggle:checked + .menu-icon + .menu {
+  display: block;
+}
+
+/* Media query para hacer el menú responsive */
+@media (max-width: 768px) {
+  .menu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+
+  .menu a {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+}
